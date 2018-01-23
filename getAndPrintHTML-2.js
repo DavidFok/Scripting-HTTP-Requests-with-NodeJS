@@ -6,7 +6,7 @@ var requestOptions = {
   };
 
 function getAndPrintHTML (options) {
-  https.get(requestOptions, function (response) {
+  https.get(options, function (response) {
     response.setEncoding('utf8');
 
     var dataList = [];
