@@ -25,5 +25,5 @@ var printIt = function printHTML (html) {
   console.log(html);
 }
 
-getHTML(requestOptions, printIt);
+module.exports = getHTML(requestOptions, printIt);
 
